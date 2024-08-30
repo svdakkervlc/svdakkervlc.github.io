@@ -5,4 +5,7 @@ h1 {
     font-size: 50px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: #ffffff;
+    text-align: center;
+    border-style: ridge;
+    border-color: #703434;
 }
