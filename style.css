@@ -1,3 +1,8 @@
 body {
     background-color: #964747;
 }
+h1 {
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #ffffff;
+}
