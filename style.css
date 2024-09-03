@@ -1,4 +1,4 @@
-body {
+body { 
     background-color: #964747;
 }
 h1 {
@@ -6,7 +6,7 @@ h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: #ffffff;
     text-align: center;
-    border: inset;
+    border: groove;
     border-color: #703434;
     border-width: medium;
 }
@@ -15,4 +15,5 @@ p {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: #ffffff;
     text-align: center;
+    
 }
