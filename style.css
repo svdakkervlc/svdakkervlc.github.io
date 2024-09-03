@@ -6,7 +6,7 @@ h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: #ffffff;
     text-align: center;
-    border: groove;
+    border: solid;
     border-color: #703434;
     border-width: medium;
 }
