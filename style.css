@@ -17,5 +17,13 @@ p {
     text-align: center;
     border: solid;
     border-color: #703434;
-    border-width: 5px;
+    border-width: 8px;
+}
+li {
+    float: inline-start;
+}
+li a {
+    display: block;
+    padding: 10px;
+    background-color: #cc6e6e;
 }
