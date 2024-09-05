@@ -29,16 +29,15 @@ li {
 }
 li a {
     display: block;
-    height: 10px;
-    width
+    height: 100px;
     padding: 40px;
-    background-color: #cc6e6e;
+    color: #000000;
 }
 header img {
     height: 100px;
 }
 header {
-    background-color: black;
+    background-color: white;
     height: 100px;
     margin: 0;
 }
