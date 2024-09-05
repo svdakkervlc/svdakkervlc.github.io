@@ -40,4 +40,5 @@ header img {
 header {
     background-color: black;
     height: 100px;
+    margin: 0;
 }
