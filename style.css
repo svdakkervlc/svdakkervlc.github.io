@@ -23,6 +23,8 @@ ul {
     list-style-type: none; /*Dit zorgt ervoor dat de puntjes voor de onderdelen van de lijst weg gaan.*/
     margin: 0; /*Hierdoor gaan de standaard instellingen van een website weg.*/
     padding: 0;
+    align-items: center;
+    text-align: justify;
 }
 li {
     float: left;
