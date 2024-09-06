@@ -19,23 +19,16 @@ p {
     border-color: #703434;
     border-width: 8px;
 }
-ul {
-    list-style-type: none; /*Dit zorgt ervoor dat de puntjes voor de onderdelen van de lijst weg gaan.*/
-    margin: 0; /*Hierdoor gaan de standaard instellingen van een website weg.*/
-    padding: 0;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: #000000;
+li { /* Dit is het list item element.*/
+    float: left; /*Hierdoor komen blok elementen naast elkaar te staan.*/
 }
-li {
-    float: left;
-}
-li a {
+
+a {
     display: block;
-    height: 100px;
-    color: #ffffff;
-    margin-top: 5px;
-    margin-left: 10px;
-    text-align: center;
+    padding: 8px;
+    width: 100%;
+}
+
+ul {
+    background-color: #703434; /*Achtergrond kleur van de menu bar.*/
 }
