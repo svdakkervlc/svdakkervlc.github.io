@@ -28,11 +28,11 @@ a {
     padding: 8px;
     width: 100%;
     background-color: #703434; /*Achtergrond kleur van de menu bar.*/
-
 }
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    color: #ffffff;
 }
