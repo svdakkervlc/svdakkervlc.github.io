@@ -26,6 +26,7 @@ ul {
     position: fixed;
     top: 0;
     width: 100%;
+    background-color: #000000;
 }
 li {
     float: left;
@@ -33,16 +34,8 @@ li {
 li a {
     display: block;
     height: 100px;
-    color: #000000;
+    color: #ffffff;
     margin-top: 5px;
     margin-left: 10px;
     text-align: center;
-}
-header img {
-    height: 100px;
-}
-header {
-    background-color: white;
-    height: 100px;
-    margin-bottom: 50px;
 }
