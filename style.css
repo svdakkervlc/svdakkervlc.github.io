@@ -38,10 +38,10 @@ ul {
     margin: 0;
     padding: 0;
 }
-.active {
+active-item {
     background-color: #000000;
 }
 
-li a:hover:not(.active) {
+li a:hover {
     background-color: #964747;
 }
