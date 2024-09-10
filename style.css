@@ -31,6 +31,7 @@ a {
     width: 100%;
     background-color: #703434; /*Achtergrond kleur van de menu bar.*/
     color: #ffffff;
+    font-size: 30px;
 }
 
 ul {
