@@ -23,6 +23,7 @@ li { /* Dit is het list item element.*/
     float: left; /*Hierdoor komen blok elementen naast elkaar te staan.*/
     padding: 20px;
     width: 15%;
+    margin: 0;
 }
 
 a {
