@@ -36,6 +36,10 @@ ul {
     margin: 0;
     padding: 0;
 }
+li a:active {
+    background-color: #000000;
+}
+
 li a:hover {
     background-color: #964747;
 }
