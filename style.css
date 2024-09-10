@@ -36,7 +36,7 @@ ul {
     margin: 0;
     padding: 0;
 }
-li a:active {
+.active {
     background-color: #000000;
 }
 
