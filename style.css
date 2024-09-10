@@ -36,9 +36,6 @@ ul {
     margin: 0;
     padding: 0;
 }
-li a:hover:not(:active) {
-    background-color: #703434;
-}
-:active {
+li a:hover {
     background-color: #964747;
 }
