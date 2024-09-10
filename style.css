@@ -21,6 +21,8 @@ p {
 }
 li { /* Dit is het list item element.*/
     float: left; /*Hierdoor komen blok elementen naast elkaar te staan.*/
+    padding: 20px;
+    width: 20%;
 }
 
 a {
@@ -36,7 +38,7 @@ ul {
     margin: 0;
     padding: 0;
 }
-li a.active {
+.active {
     background-color: #000000;
 }
 
