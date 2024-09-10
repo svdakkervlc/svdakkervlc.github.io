@@ -31,7 +31,7 @@ a {
     width: 100%;
     background-color: #703434; /*Achtergrond kleur van de menu bar.*/
     color: #ffffff;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 ul {
@@ -40,7 +40,7 @@ ul {
     padding: 0;
 }
 active-item {
-    background-color: #000000;
+    color: #000000;
 }
 
 li a:hover {
