@@ -40,6 +40,6 @@ ul {
     background-color: #000000;
 }
 
-li a:hover {
+li a:hover:not(.active) {
     background-color: #964747;
 }
