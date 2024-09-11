@@ -37,9 +37,10 @@ a {
 ul {
     list-style-type: none;
     margin: 0px;
-    padding: 0px;
+    padding: 0px 10px;
     background-color: #703434;
     overflow: hidden;
+    text-decoration: none;
 }
 active-item { /*WIP*/
     color: #000000;
