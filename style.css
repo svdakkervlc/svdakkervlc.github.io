@@ -32,6 +32,7 @@ a {
     background-color: #703434; /*Achtergrond kleur van de menu bar.*/
     color: #ffffff;
     font-size: 20px;
+    text-decoration: none;
 }
 
 ul {
@@ -40,7 +41,6 @@ ul {
     padding: 0px 10px;
     background-color: #703434;
     overflow: hidden;
-    text-decoration: none;
 }
 active-item { /*WIP*/
     color: #000000;
