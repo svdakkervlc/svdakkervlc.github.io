@@ -43,11 +43,6 @@ ul {
     overflow: hidden;
 }
  
-
-li a:hover:not(:active)) {
+li a:hover {
     background-color: #964747;
-}
-
-li a:active {
-    background-color: #4a2222;
 }
