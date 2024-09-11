@@ -42,10 +42,12 @@ ul {
     background-color: #703434;
     overflow: hidden;
 }
-:active { /*WIP*/
-    color: #000000;
+ 
+
+li a:hover:not(:active)) {
+    background-color: #964747;
 }
 
-li a:hover {
-    background-color: #964747;
+li a:active {
+    background-color: #4a2222;
 }
