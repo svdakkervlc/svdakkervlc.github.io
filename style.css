@@ -22,15 +22,13 @@ p {
 li { /* Dit is het list item element.*/
     display: inline;
     float: left; /*Hierdoor komen blok elementen naast elkaar te staan.*/
-    padding: 20px;
-    width: 15%;
+    padding: 10px;
     margin: 0;
 }
 
 a {
     display: block;
     padding: 8px;
-    width: 100%;
     background-color: #703434; /*Achtergrond kleur van de menu bar.*/
     color: #ffffff;
     font-size: 20px;
@@ -40,6 +38,8 @@ ul {
     list-style-type: none;
     margin: 0px;
     padding: 0px;
+    background-color: #703434;
+    overflow: hidden;
 }
 active-item { /*WIP*/
     color: #000000;
