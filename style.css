@@ -42,7 +42,7 @@ ul {
     background-color: #703434;
     overflow: hidden;
 }
-active-item { /*WIP*/
+:active { /*WIP*/
     color: #000000;
 }
 
