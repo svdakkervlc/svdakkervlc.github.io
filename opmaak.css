@@ -18,6 +18,7 @@ p {
     border: solid;
     border-color: #703434;
     border-width: 8px;
+    margin: 2px;
 }
 li { /* Dit is het list item element.*/
     display: inline;
