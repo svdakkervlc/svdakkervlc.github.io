@@ -9,6 +9,8 @@ h1 {
     border: solid;
     border-color: #703434;
     border-width: 10px;
+    display: flex;
+    justify-content: center;
 }
 p {
     font-size: 20px;
@@ -53,5 +55,5 @@ li a:hover:not(.active) {
 
 .indexpagina {
     width: 20%;
-    align-items: center;
+    
 }
