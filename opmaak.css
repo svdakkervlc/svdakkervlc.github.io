@@ -9,7 +9,7 @@ h1 {
     border: solid;
     border-color: #703434;
     border-width: 10px;
-    margin-left: auto;
+    margin-left: auto; /*Door margin-left en margin-right op auto te zetten komt het volledige vakje met tekst en border in het midden te staan.*/
     margin-right: auto;
 }
 
@@ -21,6 +21,7 @@ p {
     border: solid;
     border-color: #703434;
     border-width: 8px;
+    padding: 4px
 }
 li { /* Dit is het list item element.*/
     display: inline;
