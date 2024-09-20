@@ -12,6 +12,7 @@ h1 {
     margin-left: auto; /*Door margin-left en margin-right op auto te zetten komt het volledige vakje met tekst en border in het midden te staan.*/
     margin-right: auto;
     padding: 10px;
+    width: fit-content;
 }
 
 p {
@@ -57,12 +58,4 @@ li a:hover:not(.active) {
 
 .active {
     background-color: #4a2222;
-}
-
-.indexpaginatitel {
-    width: 20%;    
-}
-
-.kleurmodellentitel {
-    width: fit-content;
 }
