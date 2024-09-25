@@ -64,7 +64,7 @@ ul {
     background-color: #703434;
     overflow: hidden;
     position: sticky;
-    top: 0;
+    top: 3px;
 }
  
 li a:hover:not(.active) {
