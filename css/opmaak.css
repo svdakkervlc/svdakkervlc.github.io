@@ -28,6 +28,17 @@ h2 {
     width: fit-content;
 }
 
+h6 {
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: fit-content;
+    background-color: #4a2222;
+}
+
 p {
     font-size: 23px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
