@@ -1,10 +1,12 @@
 body { 
     background-color: #964747;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 80px; /*Op deze manier komt de tekst onderaan de pagina niet onder de footer te staan.
 }
 h1 {
     font-size: 50px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #ffffff;
     text-align: center;
     border: solid;
     border-color: #703434;
@@ -16,8 +18,6 @@ h1 {
 }
 h2 {
     font-size: 40px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #ffffff;
     text-align: center;
     border: solid;
     border-color: #703434;
@@ -29,20 +29,15 @@ h2 {
 }
 
 h6 {
-    font-size: 40px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #ffffff;
+    font-size: 10px;
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
     width: fit-content;
-    background-color: #4a2222;
 }
 
 p {
     font-size: 23px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #ffffff;
     text-align: center;
     border: solid;
     border-color: #703434;
@@ -52,6 +47,19 @@ p {
     margin-left: auto;
     margin-right: auto;
 }
+
+footer {
+    height: 50px;
+    width: 100%;
+    background: #4a2222;
+    display: flex;
+    justify-content: center; /*Hierdoor komt de tekst in het midden te staan.*/
+    align-items: center; /*Hierdoor komt de tekst in het midden van het blokje te staan.*/
+    border-top: #964747;
+    position: fixed; /*Hierdoor kan de positie van de footer niet veranderen.*/
+    bottom: 0px; /*Door deze specificatie komt de footer onderaan de pagina te staan.
+}
+
 li { /* Dit is het list item element.*/
     display: inline;
     float: left; /*Hierdoor komen blok elementen naast elkaar te staan.*/
