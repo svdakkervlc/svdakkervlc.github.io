@@ -58,7 +58,7 @@ footer {
     align-items: center; /*Hierdoor komt de tekst in het midden van het blokje te staan.*/
     border-top: #964747;
     position: fixed; /*Hierdoor kan de positie van de footer niet veranderen.*/
-    bottom: 0px; /*Door deze specificatie komt de footer onderaan de pagina te staan.
+    bottom: 0px; /*Door deze specificatie komt de footer onderaan de pagina te staan.*/
 }
 
 li { /* Dit is het list item element.*/
