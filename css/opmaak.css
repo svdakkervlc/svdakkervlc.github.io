@@ -3,7 +3,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #ffffff;
     text-align: center;
-    margin-bottom: 80px; /*Op deze manier komt de tekst onderaan de pagina niet onder de footer te staan.
+    margin-bottom: 80px; /*Op deze manier komt de tekst onderaan de pagina niet onder de footer te staan.*/
 }
 h1 {
     font-size: 50px;
