@@ -80,7 +80,7 @@ a {
 ul {
     list-style-type: none;
     margin: 0px;
-    padding: 0px 10px;
+    padding: 0px;
     background-color: #703434;
     overflow: hidden;
     position: sticky;
@@ -98,6 +98,12 @@ li a:hover:not(.active) {
 .video {
     border: solid;
     border-color: #703434;
-    border-width: 8px;
+    border-width: 1vh;
     padding: 0px;
+}
+
+.foto {
+    border: solid;
+    border-color: #703434;
+    border-width: 1vh;
 }
