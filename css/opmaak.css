@@ -59,6 +59,7 @@ footer {
     border-top:#964747;
     position: fixed; /*Hierdoor kan de positie van de footer niet veranderen.*/
     bottom: 0px; /*Door deze specificatie komt de footer onderaan de pagina te staan.*/
+    left:0px;
 }
 
 li { /* Dit is het list item element.*/
