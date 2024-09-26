@@ -95,3 +95,10 @@ li a:hover:not(.active) {
 .active {
     background-color: #4a2222;
 }
+
+iframe {
+    border: solid;
+    border-color: #703434;
+    border-width: 8px;
+    padding: 0px;
+}
