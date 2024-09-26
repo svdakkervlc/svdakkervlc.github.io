@@ -11,10 +11,10 @@ h1 {
     text-align: center;
     border: solid;
     border-color: #703434;
-    border-width: 10px;
+    border-width: 1.2vh;
     margin-left: auto; /*Door margin-left en margin-right op auto te zetten komt het volledige vakje met tekst en border in het midden te staan.*/
     margin-right: auto;
-    padding: 10px;
+    padding: 1vh;
     width: fit-content;
 }
 h2 {
@@ -22,10 +22,10 @@ h2 {
     text-align: center;
     border: solid;
     border-color: #703434;
-    border-width: 10px;
+    border-width: 1.1vh;
     margin-left: auto;
     margin-right: auto;
-    padding: 10px;
+    padding: 1vh;
     width: fit-content;
 }
 
@@ -33,7 +33,6 @@ h6 {
     font-size: 20px;
     margin-left: auto;
     margin-right: auto;
-    padding: 10px;
     width: fit-content;
 }
 
@@ -42,15 +41,15 @@ p {
     text-align: center;
     border: solid;
     border-color: #703434;
-    border-width: 8px;
-    padding: 8px;
+    border-width: 0.8vh;
+    padding: 1vh;
     width: 85%;
     margin-left: auto;
     margin-right: auto;
 }
 
 footer {
-    height: 70px;
+    height: 10vh;
     width: 100%;
     background: #4a2222;
     display: flex;
@@ -96,7 +95,7 @@ li a:hover:not(.active) {
     background-color: #4a2222;
 }
 
-iframe {
+.video {
     border: solid;
     border-color: #703434;
     border-width: 8px;
