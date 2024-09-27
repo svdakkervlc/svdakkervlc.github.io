@@ -69,6 +69,7 @@ a {
     display: block; /*Door display: block te gebruiken zitten de elementen als een blok bij elkaar en worden andere elementen omhoog of omlaag geduwd.*/
     padding: 8px;
     background-color: #703434; /*Achtergrond kleur van de menu bar.*/
+    color: #ffffff;
     font-size: 20px;
     text-decoration: none; /*Hierdoor staat er geen lijntje meer onder een link.*/
 }
