@@ -1,25 +1,23 @@
 body { 
-    background-color: #964747;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #ffffff;
-    text-align: center;
+    background-color: #964747; /*Dit is de achtergrondkleur van mijn website.*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /*Dit is het font dat alle tekst op mijn website krijgt.*/
+    color: #ffffff; /*Met deze specificatie is alle tekst op mijn website binnen de body tag wit gekleurd.*/
+    text-align: center; /*Hiermee komt alles binnen de body tag in het midden te staan.*/
     margin-bottom: 100px; /*Op deze manier komt de tekst onderaan de pagina niet onder de footer te staan.*/
 }
 
 h1 {
-    font-size: 50px;
-    text-align: center;
-    border: solid;
-    border-color: #703434;
-    border-width: 1.2vh;
+    font-size: 50px; /*Dit is de grootte van de tekst die binnen de tag staat.*/
+    border: solid; /*Dit zorgt voor een border rondom de tekst van de h1 tag.*/
+    border-color: #703434; /*Dit is de kleur van de border.*/
+    border-width: 1.2vh; /*Dit is de dikte van de border.*/
     margin-left: auto; /*Door margin-left en margin-right op auto te zetten komt het volledige vakje met tekst en border in het midden te staan.*/
     margin-right: auto;
-    padding: 1vh;
-    width: fit-content;
+    padding: 1vh; /*Door de padding te verhogen komt er meer ruimte binnen het blok waarin de tekst zich bevindt.*/
+    width: fit-content; /*Hierdoor komt de border netjes om de tekst heen te staan, in plaats van dat er allemaal open ruimte aan de zijkanten zit.*/
 }
 h2 {
     font-size: 40px;
-    text-align: center;
     border: solid;
     border-color: #703434;
     border-width: 1.1vh;
@@ -38,7 +36,6 @@ h6 {
 
 p {
     font-size: 23px;
-    text-align: center;
     border: solid;
     border-color: #703434;
     border-width: 0.8vh;
@@ -49,50 +46,49 @@ p {
 }
 
 footer {
-    height: 9vh;
+    height: 9vh; /*Deze specificatie geeft aan hoe lang de footer tag op de pagina is.*/
     width: 100%;
     background: #4a2222;
-    display: flex;
+    display: flex; /*Deze specificatie geeft je de mogelijkheid om de onderdelen van je tag vrijer aan te passen.*/
     justify-content: center; /*Hierdoor komt de tekst in het midden te staan.*/
     align-items: center; /*Hierdoor komt de tekst in het midden van het blokje te staan.*/
-    border-top:#964747;
+    border-top:#ffffff; /*TEST*/
     position: fixed; /*Hierdoor kan de positie van de footer niet veranderen.*/
     bottom: 0px; /*Door deze specificatie komt de footer onderaan de pagina te staan.*/
-    left:0px;
+    left:0px; /*Hierdoor komt de footer tegen de linkerkant aan te staan.*/
 }
 
 li { /* Dit is het list item element.*/
-    display: inline;
+    display: inline; /*Hierdoor komen de onderdelen van het menu naast elkaar te staan in plaats van onder elkaar.*/
     float: left; /*Hierdoor komen blok elementen naast elkaar te staan.*/
     padding: 10px;
-    margin: 0;
+    margin: 0; /*De margin is de ruimte om het element heen.*/
 }
 
 a {
-    display: block;
+    display: block; /*Door display: block te gebruiken zitten de elementen als een blok bij elkaar en worden andere elementen omhoog of omlaag geduwd.*/
     padding: 8px;
     background-color: #703434; /*Achtergrond kleur van de menu bar.*/
-    color: #ffffff;
     font-size: 20px;
-    text-decoration: none;
+    text-decoration: none; /*Hierdoor staat er geen lijntje meer onder een link.*/
 }
 
 ul {
-    list-style-type: none;
+    list-style-type: none; /*Hierdoor komen er geen puntjes voor de links te staan.*/
     margin: 0px;
     padding: 0px;
     background-color: #703434;
-    overflow: hidden;
-    position: sticky;
+    overflow: hidden; /*Hierdoor komen de onderdelen van het menu aan elkaar te staan in plaats van dat het losse blokken zijn.*/
+    position: sticky; /*Hierdoor blijft het menu op het scherm wanneer je naar beneden scrollt.*/
     top: 0px;
 }
  
 li a:hover:not(.active) {
-    background-color: #964747;
+    background-color: #964747; /*Hierdoor krijgen de links naar pagina's een andere kleur wanneer je er met je muis overheen gaat.*/
 }
 
 .active {
-    background-color: #4a2222;
+    background-color: #4a2222; /*Hierdoor krijgt de pagina waar je nu op zit een andere kleur in het menu.*/
 }
 
 .video {
