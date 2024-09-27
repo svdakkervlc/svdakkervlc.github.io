@@ -16,6 +16,7 @@ h1 {
     padding: 1vh; /*Door de padding te verhogen komt er meer ruimte binnen het blok waarin de tekst zich bevindt.*/
     width: fit-content; /*Hierdoor komt de border netjes om de tekst heen te staan, in plaats van dat er allemaal open ruimte aan de zijkanten zit.*/
 }
+
 h2 {
     font-size: 40px;
     border: solid;
